@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+.login-btn{
+  color:#F8FAE5;
+  background-color: #D63484;
+  size: 5rem;
+}
+/* HEAder */
+.navbar{
+  background-color: #ddd;
+}
+.login{
+  background-color: #EEEDEB;
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* user && feeds */
+.first-childred-card{
+  margin-top: 9rem;
+  /* background-color: "#BFCFE7"; */
+
+}
+
+.other-children-card{
+  /* background-color: green; */
+  /* background-color: "#BFCFE7"; */
+  margin-top: 3rem;
+  
+}
+
+
+.first-childred-user{
+  margin-top: 6rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+
+}
+
+.other-children-user{
+  margin-top: 2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+}
+
+
+
+/* Profile  */
+
+.profile_link{
+  text-decoration: none;
+  color:#1F2544 ;
+  font-weight: "600";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query */
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+  
+    .login-form {
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
